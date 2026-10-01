@@ -1,6 +1,6 @@
 import { PaymentTable } from './components/PaymentTable';
 import { PaymentChart } from './components/PaymentChart';
-import { LoanForm, type LoanParams } from './components/LoanForm';
+import { LoanForm } from './components/LoanForm';
 import { annuity, differentiated } from './lib/calc';
 import { useUrlState } from './hooks/useUrlState';
 
