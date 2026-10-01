@@ -44,7 +44,7 @@ select {
   font-size: 1rem;
 }
 
-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+table { width: 100%; border-collapse: separate; font-variant-numeric: tabular-nums; }
 th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--border); }
 th { position: sticky; top: 0; background: var(--card); color: var(--muted); }
 th:first-child, td:first-child { text-align: left; }
@@ -64,4 +64,3 @@ th:first-child, td:first-child { text-align: left; }
   padding-right: 16px;
 }
 
-border-collapse: collapse
