@@ -48,3 +48,18 @@ table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nu
 th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--border); }
 th { position: sticky; top: 0; background: var(--card); color: var(--muted); }
 th:first-child, td:first-child { text-align: left; }
+.table-wrap {
+  max-height: 400px;
+  overflow: auto;
+  padding: 0;
+}
+
+.table-wrap th {
+  z-index: 1;
+}
+
+.table-wrap td,
+.table-wrap th {
+  padding-left: 16px;
+  padding-right: 16px;
+}
