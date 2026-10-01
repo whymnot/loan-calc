@@ -4,7 +4,7 @@ const fmt = (n: number) => Math.round(n).toLocaleString('ru-RU');
 
 export function PaymentTable({ schedule }: { schedule: Payment[] }) {
   return (
-    <div style={{ maxHeight: 400, overflow: 'auto' }}>
+    <div className="table-wrap">
       <table>
         <thead>
           <tr>

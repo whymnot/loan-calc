@@ -63,3 +63,5 @@ th:first-child, td:first-child { text-align: left; }
   padding-left: 16px;
   padding-right: 16px;
 }
+
+border-collapse: collapse
